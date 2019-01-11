@@ -1,0 +1,9 @@
+extern double a;
+double power(double a,double m)
+{
+	double sum=1;
+	for (int i=1;i<=m;i++)
+		sum*=a;
+	return sum;
+	
+}
